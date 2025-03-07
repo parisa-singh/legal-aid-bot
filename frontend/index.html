@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harassment Legal Advisor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Harassment Legal Advisor</h1>
+    <p>Your journey to understanding your legal rights starts here.</p>
+    <button id="start">Get Started</button>
+    <form id="profileForm">
+        <label for="category">Select Harassment Category:</label>
+        <select id="category" name="category">
+            <option value="domestic">Domestic Harassment</option>
+            <option value="workplace">Workplace Harassment</option>
+            <option value="cyber">Cyber Harassment</option>
+            <option value="public">Public Harassment</option>
+        </select>
+        <label for="details">Describe Your Experience:</label>
+        <textarea id="details" name="details" rows="4" required></textarea>
+        <button type="submit">Submit Profile</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
