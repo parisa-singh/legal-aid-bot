@@ -54,7 +54,7 @@ function updateToggleButtonText() {
     outputContainer.scrollIntoView({ behavior: 'smooth' });
     
     // Call the Flask backend
-    fetch('https://your-backend.onrender.com/submit_profile', {
+    fetch('https://legal-aid-bot.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
